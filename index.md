@@ -1,16 +1,30 @@
 ---
 layout: home
-title: Adrian Bercovici Site
+title: Adrian Bercovici
 ---
 
 # Adrian Bercovici
 
-Senior Software Architect (Contract) — Real-Time / Low-Latency Distributed Systems  
-Rust • Erlang/OTP • C#/.NET • Actor Model • WebSockets • Event-Driven Architectures • Temporal.io
+Senior / Staff Distributed Systems Engineer (Contract)  
+Real-Time • Low-Latency • Event-Driven Architectures
 
-I build high-throughput, low-latency backends for real-time products: WebSocket platforms, actor-based
-systems (Erlang/OTP, Microsoft Orleans, Rust actors), event-driven pipelines (Kafka/Redis/RabbitMQ),
-and workflow orchestration (Temporal.io).
+Rust • Erlang/OTP • C#/.NET • Actor Model • WebSockets • Temporal.io
+
+I design and build high-throughput real-time platforms: WebSocket infrastructure,
+actor-based distributed systems, event-driven pipelines, and workflow orchestration
+platforms used in data-intensive and latency-sensitive environments.
+
+---
+
+## What I Build
+
+Examples of systems I specialize in:
+
+- real-time messaging and chat platforms
+- multiplayer game backends
+- WebSocket infrastructure
+- streaming and pub/sub systems
+- collaborative real-time applications
 
 ---
 
@@ -25,43 +39,84 @@ and workflow orchestration (Temporal.io).
 
 ---
 
-## Experience Highlights
+## Performance & Architecture Highlights
 
-- Built a high-performance scoring API handling **4,000 req/s** at **25ms p99** (Rust, Actix-Web, Tokio, Redis, ClickHouse, k6)
+- Built a high-performance scoring API handling **4,000 req/s** at **25ms p99 latency**  
+  (Rust, Actix-Web, Tokio, Redis, ClickHouse, k6)
+
 - Re-architected a payment processing engine using **Erlang/OTP + Microsoft Orleans**, achieving **25× throughput**
-- Delivered real-time orchestration with **Temporal.io workflows** for long-running platform operations (VM restarts, DB upgrades)
-- Built high-concurrency collaborative and WebSocket systems (clustering + conflict resolution)
+
+- Designed **Temporal.io workflows** orchestrating long-running platform operations  
+  (VM restarts, database upgrades)
+
+- Built clustered **WebSocket systems with conflict resolution** for collaborative applications
 
 ---
 
 ## Technologies
 
+**Languages**
+
 Rust (Tokio, Actix-Web)  
-Erlang/OTP  
-C#/.NET (Orleans, MassTransit)  
+Erlang / OTP  
+C# / .NET (Orleans, MassTransit)  
 Python  
+
+**Messaging & Streaming**
 
 Kafka • Redis • RabbitMQ  
 
-Temporal • Orleans • Actor systems
+**Distributed Systems**
+
+Temporal • Orleans • Actor Systems
+
+---
+
+## Keywords
+
+real-time systems • distributed systems • actor model • event-driven architecture  
+websocket infrastructure • streaming systems • pub/sub messaging • workflow orchestration  
+low-latency backend • high-throughput APIs
+
+---
+
+## Open To
+
+- Senior / Staff Backend Engineer roles
+- Distributed Systems / Platform teams
+- Real-time infrastructure
+- Remote or EU-based contracts
 
 ---
 
 ## Contracting
 
-Based in **Europe**. Open to contracts. Specialized in the real-time / low-latency niche (chat/messaging, streaming,
-multiplayer games, exchanges/HFT-adjacent, auctions/betting).
+Based in **EU (Romania)** • Remote-friendly • Contract / Consulting
+
+Specialized in the real-time / low-latency niche including chat & messaging platforms,
+streaming systems, multiplayer backends, exchanges and trading infrastructure,
+and auction or betting systems.
 
 ---
 
 ## Links & Contact
 
 Email: bercovici.adrian.simon@gmail.com  
-LinkedIn: https://www.linkedin.com/in/adrian-bercovici-8799b218/  
-GitHub: https://github.com/sanzor  
-StackOverflow: https://stackoverflow.com/users/1913744/bercovici-adrian  
-Medium: https://bercovici-adrian-simon.medium.com/ctesiphon-chat-application-using-net-redis-pub-sub-and-websockets-bd12b8032f8b  
-PDF CV: [Adrian_Bercovici_2026.pdf](Adrian_Bercovici_2026.pdf)
+
+LinkedIn:  
+https://www.linkedin.com/in/adrian-bercovici-8799b218/
+
+GitHub:  
+https://github.com/sanzor  
+
+StackOverflow:  
+https://stackoverflow.com/users/1913744/bercovici-adrian  
+
+Medium:  
+https://bercovici-adrian-simon.medium.com/ctesiphon-chat-application-using-net-redis-pub-sub-and-websockets-bd12b8032f8b  
+
+PDF CV:  
+[Adrian_Bercovici_2026.pdf](Adrian_Bercovici_2026.pdf)
 
 ---
 
