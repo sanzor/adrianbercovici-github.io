@@ -6,114 +6,150 @@ permalink: /systems/
 
 # Distributed Systems Notes
 
-These are practical notes and checklists for building **real-time, low-latency, event-driven** systems:
-WebSocket platforms, actor-based services, messaging pipelines, and workflow orchestration.
+Practical notes and checklists for designing **real-time, low-latency distributed systems**.
+
+These patterns frequently appear in systems such as:
+
+- WebSocket messaging platforms
+- multiplayer backends
+- trading / exchange infrastructure
+- collaborative real-time applications
+- streaming and event-driven platforms
+
+The notes below summarize recurring design patterns from working with
+actor-based systems, event-driven architectures, and real-time APIs.
 
 ---
 
 ## Actor Model for Distributed Systems
 
-The actor model provides strong isolation between components
-and enables highly concurrent systems.
+The **actor model** provides strong isolation between components and enables highly concurrent systems.
 
-Benefits:
+Actors communicate via asynchronous messages and encapsulate their state,
+making them well-suited for distributed systems where failure is expected.
+
+### Benefits
 
 - fault isolation
 - location transparency
 - natural concurrency model
+- scalable partitioning of stateful workloads
 
-Technologies:
+### Technologies
 
-- Erlang/OTP (supervision trees, message passing, distribution)
-- Microsoft Orleans (virtual actors, grains, scalability, reliability)
-- Rust actor frameworks (e.g. Kameo) + async runtimes (Tokio)
+- **Erlang/OTP** – supervision trees, message passing, distributed nodes
+- **Microsoft Orleans** – virtual actors (grains), automatic placement and scaling
+- **Rust actor frameworks** (e.g. Kameo) + async runtimes (Tokio)
 
-Practical notes:
+### Practical notes
 
-- Use actors to isolate stateful workflows (per user, per room, per instrument, per account).
-- Use supervision/restarts to treat failure as a normal control-flow mechanism.
-- Decide early where state lives: in-memory actor state vs external storage vs event log.
+- Use actors to isolate **stateful workflows** (per user, per room, per instrument, per account).
+- Supervision/restarts allow failures to be treated as **normal control flow**.
+- Decide early where state lives: **in-memory actor state vs external storage vs event log**.
 
 ---
 
 ## Event-Driven Architecture
 
-Event-driven systems decouple producers and consumers
-using messaging infrastructure.
+Event-driven systems decouple producers and consumers using messaging infrastructure.
 
-Common components:
+Instead of tightly coupled request/response flows, systems communicate through events
+that can be consumed asynchronously by multiple services.
+
+### Common components
 
 - Kafka
-- Redis streams
+- Redis Streams
 - RabbitMQ
-- Redis pub/sub (fanout patterns, but know the trade-offs)
+- Redis Pub/Sub (useful for fanout patterns, but understand delivery guarantees)
 
-Advantages:
+### Advantages
 
 - scalability
-- loose coupling
-- real-time processing
+- loose coupling between services
+- natural support for real-time processing
 
-Operational checklist:
+### Operational checklist
 
-- Define message contracts and versioning rules (schema evolution).
-- Plan for idempotency and retries (exactly-once is rare; design for at-least-once).
-- Decide on ordering guarantees per key/partition and what it means for correctness.
-- Build dead-letter / poison-message handling from day 1.
+- Define **message contracts and schema versioning rules**.
+- Plan for **idempotency and retries** (exactly-once delivery is rare).
+- Decide what **ordering guarantees** mean for correctness.
+- Build **dead-letter / poison-message handling** from day one.
 
 ---
 
-## WebSockets at Scale (Chat/Streaming/Multiplayer)
+## WebSockets at Scale (Chat / Streaming / Multiplayer)
 
-Real-time products tend to converge on the same concerns:
+Real-time products tend to converge on the same architectural concerns:
 
 - connection lifecycle and backpressure
-- fanout patterns (room/topic/user)
+- fanout patterns (room / topic / user)
 - presence and state reconciliation
-- horizontal scaling (sticky vs stateless gateways)
+- horizontal scaling (sticky sessions vs stateless gateways)
 - pub/sub vs durable streams depending on delivery guarantees
 
-Common building blocks:
+### Common building blocks
 
-- WebSocket gateways + internal pub/sub (Redis/RabbitMQ/Kafka depending on needs)
-- actor-per-room / actor-per-user models for isolation and locality
-- observability: connection counts, drops, queue depths, publish latency, p99 end-to-end
+- WebSocket gateways + internal pub/sub layer
+- actor-per-room / actor-per-user models for isolation
+- message fanout through Redis, Kafka, or RabbitMQ
+
+### Observability signals
+
+Real-time systems require deep observability.
+
+Important metrics include:
+
+- active connection counts
+- connection churn / disconnect rates
+- queue depths and backpressure
+- publish latency
+- **p99 end-to-end message latency**
 
 ---
 
 ## Workflow Orchestration (Temporal.io)
 
-Use a workflow engine when you need durability + retries + long-running coordination:
+Workflow engines provide **durability, retries, and long-running coordination**.
+
+Typical use cases:
 
 - infrastructure operations (VM restarts, DB upgrades)
-- multi-step business processes with human-in-the-loop
-- reliable timers and backoff policies
+- multi-step business processes
+- distributed sagas and compensating actions
+- reliable timers and retry policies
 
-Design tips:
+### Design tips
 
-- keep activities idempotent; store side-effects behind idempotency keys
-- model workflow state transitions explicitly (events, signals, queries)
-- avoid hidden coupling between workflow code and external systems
+- Keep activities **idempotent**.
+- Store side-effects behind **idempotency keys**.
+- Model workflow state transitions explicitly using **events, signals, and queries**.
+- Avoid hidden coupling between workflow code and external services.
 
 ---
 
 ## Real-Time APIs (Low Latency)
 
-Key design goals:
+Designing APIs for latency-sensitive systems requires careful attention
+to tail latency and resource contention.
+
+### Goals
 
 - low latency
 - high throughput
 - predictable performance
 
-Techniques:
+### Techniques
 
 - async runtimes
-- caching layers
+- layered caching strategies
 - connection pooling
+- batching and backpressure control
 
-What to measure (and publish internally):
+### What to measure
 
-- p50/p95/p99 latency, tail amplification under load
+- p50 / p95 / **p99 latency**
 - queueing time vs compute time vs I/O time
-- cache hit rates by tier + stampede behavior
-- per-user rate limiting effectiveness and abuse patterns
+- cache hit rates by tier
+- tail latency amplification under load
+- per-user rate limiting effectiveness
