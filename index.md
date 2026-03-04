@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Adrian Bercovici
+title: Adrian Bercovici Site
 ---
 
 # Adrian Bercovici
@@ -49,8 +49,8 @@ Temporal • Orleans • Actor systems
 
 ## Contracting
 
-Based in **Europe**. Open to **high-paying contracts** in the real-time / low-latency niche (chat/messaging, streaming,
-multiplayer games, exchanges/HFT-adjacent, auctions/betting). Target compensation: **€130k+/year equivalent**.
+Based in **Europe**. Open to contracts. Specialized in the real-time / low-latency niche (chat/messaging, streaming,
+multiplayer games, exchanges/HFT-adjacent, auctions/betting).
 
 ---
 
