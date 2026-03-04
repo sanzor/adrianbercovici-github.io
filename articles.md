@@ -6,21 +6,14 @@ permalink: /articles/
 
 # Articles
 
-## Designing Real-Time Systems with the Actor Model
+## Published
 
-Exploration of how actor-based architectures enable
-high-throughput distributed systems.
+### Ctesiphon: Chat application using .NET, Redis pub/sub, and WebSockets
 
----
+https://bercovici-adrian-simon.medium.com/ctesiphon-chat-application-using-net-redis-pub-sub-and-websockets-bd12b8032f8b
 
-## Building Scalable WebSocket Infrastructure
+### IEEE Publication: “Real-time Architecture for Collaborative Applications”
 
-Design patterns for handling thousands of concurrent
-connections using event-driven systems.
+https://ieeexplore.ieee.org/document/8885509
 
 ---
-
-## Event-Driven Architecture vs Request-Response
-
-Trade-offs between synchronous and asynchronous systems
-in modern backend architectures.

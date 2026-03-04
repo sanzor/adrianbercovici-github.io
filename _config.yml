@@ -1,3 +1,11 @@
 title: Adrian Bercovici
 description: Distributed Systems Engineer focused on real-time architectures
 theme: minima
+lang: en
+email: bercovici.adrian.simon@gmail.com
+github_username: sanzor
+linkedin_username: adrian-bercovici-8799b218
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
