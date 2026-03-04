@@ -7,7 +7,32 @@ permalink: /articles/
 # Articles
 
 Technical writing focused on **real-time systems, WebSocket infrastructure,
-actor-based architectures, and event-driven distributed systems**.
+actor-based architectures, Erlang/OTP, and event-driven distributed systems**.
+
+These articles explore practical design patterns used in messaging platforms,
+collaborative applications, streaming systems, and other low-latency services.
+
+---
+
+## Building an Erlang Web API using Nova Framework and Redis
+
+Technical article demonstrating how to build a **concurrent Web API using Erlang/OTP,
+the Nova Framework, and Redis**.
+
+Topics covered:
+
+- Erlang-based backend services
+- designing concurrent web APIs
+- Redis integration
+- practical Erlang web service patterns
+
+Read the article:
+
+https://bercovici-adrian-simon.medium.com/building-an-erlang-web-api-using-nova-framework-and-redis-141edf170ef7
+
+This article is also referenced on the Nova Framework website:
+
+https://www.novaframework.org/
 
 ---
 
@@ -51,7 +76,7 @@ https://ieeexplore.ieee.org/document/8885509
 
 ## Planned Articles
 
-Upcoming technical articles:
+Future technical writing around real-time distributed systems and infrastructure.
 
 - Designing scalable WebSocket and WebRTC infrastructure
 - Actor model architectures for distributed systems
