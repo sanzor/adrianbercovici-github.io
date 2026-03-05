@@ -3,7 +3,7 @@ layout: home
 title: Adrian Bercovici
 ---
 
-# Adrian Bercovici
+## Adrian Bercovici
 
 Senior / Staff Distributed Systems Engineer (Contract)  
 Real-Time • Low-Latency • Event-Driven Architectures
