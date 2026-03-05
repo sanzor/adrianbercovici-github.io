@@ -43,7 +43,7 @@ and **event-driven** distributed systems (WebSockets, actors, messaging, orchest
 
 ## Audio DSP (Rust) — Real-time audio processing pipeline
 
-Repo: https://github.com/sanzor/audio-dsp
+Repo: [github.com/sanzor/audio-dsp](https://github.com/sanzor/audio-dsp)
 
 Highlights:
 
@@ -55,7 +55,7 @@ Highlights:
 
 ## Nova WebSocket Server (.NET) — WebSocket platform building block
 
-Repo: https://github.com/sanzor/NovaWebsocketServer
+Repo: [github.com/sanzor/NovaWebsocketServer](https://github.com/sanzor/NovaWebsocketServer)
 
 Highlights:
 
@@ -66,7 +66,7 @@ Highlights:
 
 ## Ctesiphon (.NET) — Event-driven chat with Redis pub/sub + WebSockets
 
-Write-up: https://bercovici-adrian-simon.medium.com/ctesiphon-chat-application-using-net-redis-pub-sub-and-websockets-bd12b8032f8b
+Write-up: [Read on Medium](https://bercovici-adrian-simon.medium.com/ctesiphon-chat-application-using-net-redis-pub-sub-and-websockets-bd12b8032f8b)
 
 Highlights:
 
@@ -78,7 +78,7 @@ Highlights:
 
 ## Oituz Framework — Native Erlang WebRTC signalling
 
-Repo: https://github.com/Oituz/Signalling
+Repo: [github.com/Oituz/Signalling](https://github.com/Oituz/Signalling)
 
 Highlights:
 
@@ -89,7 +89,7 @@ Highlights:
 
 ## Banking System (Erlang) — Actor-based account management
 
-Repo: https://github.com/sanzor/Banking-Application
+Repo: [github.com/sanzor/Banking-Application](https://github.com/sanzor/Banking-Application)
 
 Highlights:
 
@@ -100,4 +100,4 @@ Highlights:
 
 ## Publication — Real-time architecture research
 
-IEEE: https://ieeexplore.ieee.org/document/8885509
+[IEEE — Real-time Architecture for Collaborative Applications](https://ieeexplore.ieee.org/document/8885509)

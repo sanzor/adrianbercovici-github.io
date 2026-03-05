@@ -27,13 +27,9 @@ Topics covered:
 - Redis integration
 - practical Erlang web service patterns
 
-Read the article:
+Read the article: [Building an Erlang Web API using Nova Framework and Redis](https://bercovici-adrian-simon.medium.com/building-an-erlang-web-api-using-nova-framework-and-redis-141edf170ef7)
 
-https://bercovici-adrian-simon.medium.com/building-an-erlang-web-api-using-nova-framework-and-redis-141edf170ef7
-
-This article is also referenced on the Nova Framework website:
-
-https://www.novaframework.org/
+This article is also referenced on the [Nova Framework website](https://www.novaframework.org/).
 
 ---
 
@@ -50,9 +46,7 @@ Topics covered:
 - event-driven system design
 - scaling chat infrastructure
 
-Read the article:
-
-https://bercovici-adrian-simon.medium.com/ctesiphon-chat-application-using-net-redis-pub-sub-and-websockets-bd12b8032f8b
+Read the article: [Ctesiphon: Chat Application using .NET, Redis Pub/Sub, and WebSockets](https://bercovici-adrian-simon.medium.com/ctesiphon-chat-application-using-net-redis-pub-sub-and-websockets-bd12b8032f8b)
 
 ---
 
@@ -69,9 +63,7 @@ Focus areas:
 - conflict resolution algorithms
 - collaborative platform architecture
 
-Read the paper:
-
-https://ieeexplore.ieee.org/document/8885509
+Read the paper: [IEEE — Real-time Architecture for Collaborative Applications](https://ieeexplore.ieee.org/document/8885509)
 
 ---
 

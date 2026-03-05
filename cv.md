@@ -15,11 +15,11 @@ Primary focus areas: **low latency**, **high throughput**, **p99 performance**, 
 
 ## Contact
 
-- Email: bercovici.adrian.simon@gmail.com
-- LinkedIn: https://www.linkedin.com/in/adrian-bercovici-8799b218/
-- GitHub: https://github.com/sanzor
-- StackOverflow: https://stackoverflow.com/users/1913744/bercovici-adrian
-- PDF: [Adrian_Bercovici_2026.pdf](Adrian_Bercovici_2026.pdf)
+- Email: [bercovici.adrian.simon@gmail.com](mailto:bercovici.adrian.simon@gmail.com)
+- LinkedIn: [Adrian Bercovici](https://www.linkedin.com/in/adrian-bercovici-8799b218/)
+- GitHub: [sanzor](https://github.com/sanzor)
+- StackOverflow: [bercovici-adrian](https://stackoverflow.com/users/1913744/bercovici-adrian)
+- PDF: [Adrian\_Bercovici\_2026.pdf](Adrian_Bercovici_2026.pdf)
 
 ## Technical Skills
 
@@ -76,15 +76,15 @@ Primary focus areas: **low latency**, **high throughput**, **p99 performance**, 
 
 ## Key Projects & Open Source
 
-- Audio DSP (Rust): https://github.com/sanzor/audio-dsp
-- Nova WebSocket Server (.NET): https://github.com/sanzor/NovaWebsocketServer
-- Banking System (Erlang): https://github.com/sanzor/Banking-Application
-- Native Erlang WebRTC signalling (Oituz): https://github.com/Oituz/Signalling
-- Ctesiphon write-up (.NET + Redis pub/sub + WebSockets): https://bercovici-adrian-simon.medium.com/ctesiphon-chat-application-using-net-redis-pub-sub-and-websockets-bd12b8032f8b
+- [Audio DSP (Rust)](https://github.com/sanzor/audio-dsp)
+- [Nova WebSocket Server (.NET)](https://github.com/sanzor/NovaWebsocketServer)
+- [Banking System (Erlang)](https://github.com/sanzor/Banking-Application)
+- [Native Erlang WebRTC signalling — Oituz](https://github.com/Oituz/Signalling)
+- [Ctesiphon write-up (.NET + Redis pub/sub + WebSockets)](https://bercovici-adrian-simon.medium.com/ctesiphon-chat-application-using-net-redis-pub-sub-and-websockets-bd12b8032f8b)
 
 ## Publication
 
-- IEEE: https://ieeexplore.ieee.org/document/8885509
+- [IEEE — Real-time Architecture for Collaborative Applications](https://ieeexplore.ieee.org/document/8885509)
 
 ## Education
 
