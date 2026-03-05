@@ -77,4 +77,4 @@ Open to **Senior / Staff Backend Engineer** roles or **Platform / Infrastructure
 
 ---
 
-[CV (Text)](/cv/) • [Projects](/projects/) • [System Design Notes](/systems/) • [Articles](/articles/)
+[CV (Text)](/cv/) • [Projects](/projects/) • [System Design Notes](/systems/) • [Articles](/articles/) • [Contributions](/contributions/)

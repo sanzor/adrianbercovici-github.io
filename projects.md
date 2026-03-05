@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Projects
+title: Projects — Adrian Bercovici
 permalink: /projects/
+description: Portfolio of Adrian Bercovici — real-time distributed systems projects including high-throughput APIs in Rust, Erlang/OTP actor systems, WebSocket infrastructure, and workflow orchestration with Temporal.io.
 ---
 
 # Projects

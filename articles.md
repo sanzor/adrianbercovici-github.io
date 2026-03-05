@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Articles
+title: Articles — Adrian Bercovici
 permalink: /articles/
+description: Technical articles by Adrian Bercovici on real-time systems, WebSocket infrastructure, actor-based architectures, Erlang/OTP, and event-driven distributed systems. Includes an IEEE publication and Medium articles.
 ---
 
 # Articles
