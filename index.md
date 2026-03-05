@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Adrian Bercovici — Senior Distributed Systems Engineer (Contract)
+title: Adrian Bercovici
 description: Senior/Staff Distributed Systems Engineer specializing in real-time WebSocket platforms, actor-based distributed systems, and event-driven pipelines. Rust, Erlang/OTP, C#/.NET. Available for remote contract work. EU-based (Romania).
 ---
 

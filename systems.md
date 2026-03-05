@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Distributed Systems Notes — Adrian Bercovici
+title: Distributed Systems Notes
 permalink: /systems/
 description: Practical design notes on real-time distributed systems — actor model, event-driven architecture, WebSockets at scale, Temporal.io workflow orchestration, and low-latency API design.
 ---

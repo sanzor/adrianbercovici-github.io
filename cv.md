@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CV — Adrian Bercovici
+title: CV
 permalink: /cv/
 description: Full CV of Adrian Bercovici — Senior Distributed Systems Engineer. 9+ years building real-time platforms, actor-based systems, and event-driven architectures. Rust, Erlang/OTP, C#/.NET. Available for remote contract work.
 ---
